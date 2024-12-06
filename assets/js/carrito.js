@@ -5,45 +5,192 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Sombrero vueltiao con la bandera de Colombia, 23 vueltas',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_01.jpg',
-            categoria: 'sombreros'
+            nombre: 'Base Matte Full Cover',
+            precio: 15000,
+            imagen: 'assets/img/Base full cover.jpeg',
+            categoria: 'Bases'
         },
         {
             id: 2,
-            nombre: 'Sombrero vueltiao-machiembriao',
-            precio: 150000,
-            imagen: 'assets/img/sombrero4.jpg',
-            categoria: 'sombreros'
+            nombre: 'Base líquida full cover',
+            precio: 12000,
+            imagen: 'assets/img/Base líquida.jpeg',
+            categoria: 'Bases'
         },
         {
             id: 3,
-            nombre: 'Sombrero vueltiao colombiano 15 vueltas tricolor',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_02.jpg',
-            categoria: 'sombreros'
+            nombre: 'Bloqueador solar - USHAS',
+            precio: 13000,
+            imagen: 'assets/img/bloqueador solar.jpeg',
+            categoria: 'Skin Care'
         },
         {
             id: 4,
-            nombre: 'Mochila wayuu azul 6',
-            precio: 120000,
-            imagen: 'assets/img/shop_04.jpg',
-            categoria: 'mochilas'
+            nombre: 'Blush en barra',
+            precio: 4000,
+            imagen: 'assets/img/Blush en barra.jpeg',
+            categoria: 'Rubores'
         },
         {
             id: 5,
-            nombre: 'Bolso en fique',
-            precio: 120000,
-            imagen: 'assets/img/shop_03.jpg',
-            categoria: 'bolsos'
+            nombre: 'Cepillo limpiador',
+            precio: 6500,
+            imagen: 'assets/img/Cepillo limpiador.jpeg',
+            categoria: 'Accesorios'
         },
         {
             id: 6,
-            nombre: 'Hamaca',
-            precio: 120000,
-            imagen: 'assets/img/category_img_02.jpg',
-            categoria: 'hamacas'
+            nombre: 'Contorno de ojos - Bioaqua',
+            precio: 3500,
+            imagen: 'assets/img/contorno de ojos - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 7,
+            nombre: 'Diadema',
+            precio: 6000,
+            imagen: 'assets/img/diadema.jpeg',
+            categoria: 'Accesorios'
+        },
+        {
+            id: 8,
+            nombre: 'Espuma limpiadora - Bioaqua',
+            precio: 8000,
+            imagen: 'assets/img/espuma limpiadora - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 9,
+            nombre: 'Fijador en aerosol - MyK',
+            precio: 18000,
+            imagen: 'assets/img/fijador MyK.jpeg',
+            categoria: 'Piel'
+        },
+        {
+            id: 10,
+            nombre: 'Gel hidratante - Bioaqua',
+            precio: 5000,
+            imagen: 'assets/img/gel hidratante - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 11,
+            nombre: 'Gloss Fat Oil - Color',
+            precio: 5000,
+            imagen: 'assets/img/Gloss Fat Oil con brillitos.jpeg',
+            categoria: 'Glosses'
+        },
+        {
+            id: 12,
+            nombre: 'Gloss Fat Oil',
+            precio: 5000,
+            imagen: 'assets/img/Gloss Fat Oil.jpeg',
+            categoria: 'Glosses'
+        },
+        {
+            id: 13,
+            nombre: 'Kit Capilar Lisos - Exotic',
+            precio: 23000,
+            imagen: 'assets/img/kit capilar exotic lisos.jpeg',
+            categoria: 'Línea capilar'
+        },
+        {
+            id: 14,
+            nombre: 'Kit Capilar Rizos - Exotic',
+            precio: 23000,
+            imagen: 'assets/img/kit capilar exotic rizos.jpeg',
+            categoria: 'Línea capilar'
+        },
+        {
+            id: 15,
+            nombre: 'Kit Capilar S.O.S - Exotic',
+            precio: 23000,
+            imagen: 'assets/img/kit capilar exotic sos.jpeg',
+            categoria: 'Línea capilar'
+        },
+        {
+            id: 16,
+            nombre: 'Limpiador facial - Bioaqua',
+            precio: 5500,
+            imagen: 'assets/img/limpiador facil arroz - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 17,
+            nombre: 'Loción de Arroz - Bioaqua',
+            precio: 5500,
+            imagen: 'assets/img/locion arroz - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 18,
+            nombre: 'Mascarilla facial, velo hidratante Arroz - Bioaqua',
+            precio: 1500,
+            imagen: 'assets/img/mascarilla arroz - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 19,
+            nombre: 'Paleta de sombras, 20 tonos',
+            precio: 14000,
+            imagen: 'assets/img/paleta de sombras 2.jpeg',
+            categoria: 'Sombras'
+        },
+        {
+            id: 20,
+            nombre: 'Paleta de sombras, 21 tonos',
+            precio: 14000,
+            imagen: 'assets/img/paleta de sombras 3.jpeg',
+            categoria: 'Sombras'
+        },
+        {
+            id: 21,
+            nombre: 'Pestañina - Mini Tango',
+            precio: 5000,
+            imagen: 'assets/img/pestañina.jpeg',
+            categoria: 'Pestañinas'
+        },
+        {
+            id: 22,
+            nombre: 'Polvo suelto - Hudamoji',
+            precio: 7500,
+            imagen: 'assets/img/Polvo suelto.jpeg',
+            categoria: 'Piel'
+        },
+        {
+            id: 23,
+            nombre: 'Primer - Ice Cream',
+            precio: 4500,
+            imagen: 'assets/img/primer ice cream.jpeg',
+            categoria: 'Piel'
+        },
+        {
+            id: 24,
+            nombre: 'Tónico Arroz - Bioaqua',
+            precio: 5500,
+            imagen: 'assets/img/tonico arroz - bioaqua.jpeg',
+            categoria: 'Skin Care'
+        },
+        {
+            id: 25,
+            nombre: 'Tratamiento capilar Aceite Árgan - Exotic',
+            precio: 12000,
+            imagen: 'assets/img/tratamiento exotic aceite argan.jpeg',
+            categoria: 'Línea capilar'
+        },
+        {
+            id: 26,
+            nombre: 'Tratamiento capilar Ácido Hialurónico - Exotic',
+            precio: 12000,
+            imagen: 'assets/img/tratamiento exotic acido hialuronico.jpeg',
+            categoria: 'Línea capilar'
+        },
+        {
+            id: 27,
+            nombre: 'Tratamiento capilar kids lisos - Exotic',
+            precio: 12000,
+            imagen: 'assets/img/tratamiento exotic lisos.jpeg',
+            categoria: ''
         }
     ];
 
